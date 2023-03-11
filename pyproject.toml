@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "es-2-0"
+version = "0.1.0"
+description = ""
+authors = ["GeorgijP <georgij.puzanov@inbox.ru>"]
+readme = "README.md"
+packages = [{include = "es_2"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
